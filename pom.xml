@@ -13,7 +13,7 @@
         <maven.compiler.target>15</maven.compiler.target>
         <serenity.version>2.4.20</serenity.version>
         <serenity.cucumber.version>2.3.2</serenity.cucumber.version>
-        <webdriver.driver>android</webdriver.driver>
+        <webdriver.driver>appium</webdriver.driver>
 
     </properties>
 
@@ -145,10 +145,7 @@
                     <version>3.0.0-M5</version>
                     <configuration>
                         <includes>
-                            <include>
                                 <include>**/*Test.java</include>
-                            </include>
-
                         </includes>
                     </configuration>
                 </plugin>
